@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #325393;
+  background-color: rgb(14, 33, 121); /*Change the background text color*/
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -22,7 +22,7 @@
   justify-content: left;
   font-size: calc(10px + 2vmin);
   font-family: 'Oxygen', sans-serif;
-  color: rgb(59, 128, 231);
+  color: rgb(255, 255, 255); /*Change the title text color*/
 }
 
 .App-link {

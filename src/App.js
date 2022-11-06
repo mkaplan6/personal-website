@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import victory_face from './logo192.png'
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import { Home } from './Components/Home';
+import { Resume } from './Components/Resume'
+import { Misc } from './Components/Misc'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={victory_face} alt="victory_face" />
-        <p>
-          <b>Malco's Landing Pad</b>
-        </p>
-      </header>
-    </div>
+    <Routes> {/* Every route of the website goes in between these tags */}
+      <Route path='/' element={<Home />}></Route> {/* Render one specific route of the website*/}
+      <Route path='resume' element={<Resume />}></Route>
+      <Route path='misc' element={<Misc />}></Route>
+    </Routes>
   );
 }
 
