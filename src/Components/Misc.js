@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Misc = () => {
   return (
-    <div style={{color: 'white'}}>Misc</div>
+    <div style={{color: 'white'}}><b>Misc</b></div>
   )
 }
