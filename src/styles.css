@@ -17,8 +17,16 @@ body {
     padding: 0 1rem;
 }
 
+.nav {
+    font-size: 1.5rem;
+}
+
 .site-title {
     font-size: 2rem;
+}
+
+.site-title:hover {
+    background-color: rgb(177, 141, 105);
 }
 
 .nav ul {
