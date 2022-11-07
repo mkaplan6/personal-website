@@ -1,8 +1,10 @@
 import React from 'react'
+import pfp from '.././images/pfp.jpg';
 
 export const Home = () => {
   return (
     <div>
+      <img style={{position:"absolute", left: 25, bottom: 250, width:255.75, height:337}}src={pfp} alt=""/>
       <h2 style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}><b>About Me</b></h2>
       <p style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}>
         Hey! My name is Malcolm and I'm a student of Computer Science and Anthropology at UIUC. <br></br>
