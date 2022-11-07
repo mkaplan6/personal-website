@@ -8,6 +8,12 @@ export default function Navbar() {
             <li>
                 <a href="misc">Misc</a>
             </li>
+            <li>
+                <a href="github">Github</a>
+            </li>
+            <li>
+                <a href="youtube">YouTube</a>
+            </li>
         </ul>
     </nav>
 }
