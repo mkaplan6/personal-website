@@ -1,9 +1,11 @@
 import React from 'react'
 import pfp from '.././images/pfp.jpg';
+import banner from '.././images/banner.png';
 
 export const Home = () => {
   return (
     <div>
+      <img style={{position:"relative", bottom: -400, width:"100%", height:"100%"}}src={banner} alt=""/>
       <img style={{position:"absolute", left: 25, bottom: 250, width:255.75, height:337}}src={pfp} alt=""/>
       <h2 style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}><b>About Me</b></h2>
       <p style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}>

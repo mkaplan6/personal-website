@@ -6,7 +6,10 @@ export default function Navbar() {
                 <a href="resume">Resume</a>
             </li>
             <li>
-                <a href="misc">Misc</a>
+                <a href="band">Band</a>
+            </li>
+            <li>
+                <a href="edits">Edits</a>
             </li>
             <li>
                 <a href="github">Github</a>
