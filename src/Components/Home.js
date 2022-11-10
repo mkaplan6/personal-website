@@ -1,19 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import pfp from '.././images/pfp.jpg';
 import banner from '.././images/banner.png';
 import guitar from '.././images/guitar.jpg';
 import drum from '.././images/drum.png';
+import Counter from '../Counter';
 
 export const Home = () => {
   return (
     <div>
       {/*<img style={{position:"absolute", left: 350, bottom: 250, width:255.75, height:337}}src={guitar} alt=""/>
       <img style={{position:"absolute", left: 350, bottom: 25, width:255.75, height:337}}src={drum} alt=""/>*/}
-      <img style={{position:"relative", bottom: -400, width:"100%", height:"100%"}}src={banner} alt=""/>
-      <img style={{position:"absolute", left: 125, bottom: 100, width:383.625, height:505.5}}src={pfp} alt=""/>
-      
-      <h2 style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}><b>About Me</b></h2>
-      <p style={{position:"relative", left: 735, bottom:375, textAlign: 'left', color:"white"}}>
+      <img style={{position:"absolute", bottom: -300, width:"100%", height:"60%"}}src={banner} alt=""/>
+      <img style={{position:"relative", left: 200, bottom: -50, width:306.9, height:404.4}}src={pfp} alt=""/>
+      <h2 style={{position:"relative", left: 735, bottom:350, textAlign: 'left', color:"white"}}><b>About Me</b></h2>
+      <p style={{position:"relative", left: 735, bottom:350, textAlign: 'left', color:"white"}}>
         Hey! My name is Malcolm and I'm a student of Computer Science and Anthropology at UIUC. <br></br>
         "What a strange combination of fields," you're probably thinking. I agree, but at the same time <br></br>
         it's an awesome discipline that I can't praise enough. Through it, students gain the same <br></br>
@@ -21,7 +21,8 @@ export const Home = () => {
         humanities to provide a unique perspective on technological challenges. I think the most important<br></br>
         part of creating technology is making sure it is as user-friendly and helpful as possible for anyone <br></br>
         who uses it. My interests include software engineering, computer-human interaction, web design, UI/UX<br></br>
-        design, and game design. <br></br>
+        design, and game design. I am also interested in the anthropological subfields of archaeology, <br></br>
+        sociocultural anthropology, and biological anthropology. <br></br>
         <br></br>
         Outside of class, I play drums in a rock band called "The Dads" (videos on the Music tab!). I love all kinds <br></br>
         of pop punk and alternative rock music, my favorite bands being blink-182, Angels and Airwaves, and <br></br>
@@ -29,5 +30,8 @@ export const Home = () => {
         video editing, oftentimes creating memes I post to YouTube and Instagram. <br></br>
       </p>
     </div>
+    
   )
 }
+
+

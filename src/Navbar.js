@@ -5,6 +5,9 @@ export default function Navbar() {
             <li>
                 <a href="resume">Resume</a>
             </li>
+            {/* <li>
+                <a href="work">Work</a>
+            </li> */}
             <li>
                 <a href="music">Music</a>
             </li>

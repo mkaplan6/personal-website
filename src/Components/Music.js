@@ -4,6 +4,7 @@ import banner from '.././images/banner.png';
 export const Music = () => {
   return (
     <div>
+      <img style={{position:"absolute", bottom: -500, width:"100%", height:"60%"}}src={banner} alt=""/>
       <iframe src='https://www.youtube.com/embed/SPdjqo2h0ZA'
       frameborder='0'
       allow='autoplay; encrypted-media'
@@ -11,6 +12,7 @@ export const Music = () => {
       title='video'
       width="640"
       height="360"
+      position="absolute"
       
       
       />
@@ -21,6 +23,7 @@ export const Music = () => {
       title='video'
       width="640"
       height="360"
+      position="absolute"
       />
 
       <iframe src='https://www.youtube.com/embed/o-atBCp8T8c'
@@ -30,10 +33,11 @@ export const Music = () => {
       title='video'
       width="640"
       height="360"
+      position="absolute"
       />
 
-      <h2 style={{position:"absolute", left: 680, bottom: 100, color:"white"}}>Here's a few videos of The Dads and some solo songs.</h2>
-      <img style={{position:"relative", bottom: -100, width:"100%", height:"100%"}}src={banner} alt=""/>
+      <h2 style={{position:"relative", left: 680, bottom: 250, color:"white"}}>Here's a few videos of The Dads and some solo songs.</h2>
+      
     </div>
   )
 }

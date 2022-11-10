@@ -12,20 +12,20 @@ import banner from '.././images/banner.png';
 export const Edits = () => {
   return (
     <div>
-      <img style={{position:"relative", bottom: -750, width:"100%", height:"100%"}}src={banner} alt=""/>
+      <img style={{position:"absolute", bottom: -450, width:"100%", height:"60%"}}src={banner} alt=""/>
 
-      <h2 style={{position:"relative", left:25, bottom:400, color:"white"}}>I sometimes edit myself and friends onto covers of albums I like. Here are a few. </h2>
-      <img style={{position:"absolute", left: 25, bottom: 250, width:300, height:300}}src={weez1} alt=""/>
-      <img style={{position:"absolute", left: 375, bottom: 250, width:300, height:300}}src={weez2} alt=""/>
+      <h2 style={{position:"relative", left:25, bottom:0, color:"white"}}>I sometimes edit myself and friends onto covers of albums I like. Here are a few. </h2>
+      <img style={{position:"relative", left: 25, bottom: 0, width:300, height:300}}src={weez1} alt=""/>
+      <img style={{position:"relative", left: 75, bottom: 0, width:300, height:300}}src={weez2} alt=""/>
 
-      <img style={{position:"absolute", left: 850, bottom: 250, width:300, height:300}}src={ava1} alt=""/>
-      <img style={{position:"absolute", left: 1200, bottom: 250, width:300, height:300}}src={ava2} alt=""/>
+      <img style={{position:"relative", left: 250, bottom: 0, width:300, height:300}}src={ava1} alt=""/>
+      <img style={{position:"relative", left: 300, bottom: 0, width:300, height:300}}src={ava2} alt=""/>
 
-      <img style={{position:"absolute", left: 25, bottom: -100, width:300, height:300}}src={gd1} alt=""/>
-      <img style={{position:"absolute", left: 375, bottom: -100, width:300, height:300}}src={gd2} alt=""/>
+      <img style={{position:"relative", left: -1175, bottom: -350, width:300, height:300}}src={gd1} alt=""/>
+      <img style={{position:"relative", left: 375, bottom: -50, width:300, height:300}}src={gd2} alt=""/>
 
-      <img style={{position:"absolute", left: 850, bottom: -100, width:300, height:300}}src={sum1} alt=""/>
-      <img style={{position:"absolute", left: 1200, bottom: -100, width:300, height:300}}src={sum2} alt=""/>
+      <img style={{position:"relative", left: 550, bottom: -50, width:300, height:300}}src={sum1} alt=""/>
+      <img style={{position:"relative", left: 600, bottom: -50, width:300, height:300}}src={sum2} alt=""/>
 
       
     </div>
