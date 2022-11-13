@@ -1,7 +1,7 @@
 
 const Counter = () => {
 
-const api_key = 'AIzaSyD4ZPRP-oPFzz6fsx7PhuUBicoN11L21_0';
+const api_key = '';
 const channel_id = 'UC8IgBm17Du8PLJbn4k08UjA';
 let viewCount = document.getElementById('viewCount');
     
