@@ -5,6 +5,12 @@ export default function Navbar() {
             <li>
                 <a href="resume">Resume</a>
             </li>
+            <li>
+                <a href="linkedin">LinkedIn</a>
+            </li>
+            <li>
+                <a href="github">Github</a>
+            </li>
             {/* <li>
                 <a href="work">Work</a>
             </li> */}
@@ -13,9 +19,6 @@ export default function Navbar() {
             </li>
             <li>
                 <a href="edits">Edits</a>
-            </li>
-            <li>
-                <a href="github">Github</a>
             </li>
             <li>
                 <a href="youtube">YouTube</a>

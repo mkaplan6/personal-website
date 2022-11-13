@@ -7,6 +7,7 @@ import { Music } from './Components/Music'
 import { Edits } from './Components/Edits'
 import { Github } from './Components/Github';
 import { YouTube } from './Components/YouTube';
+import { LinkedIn } from './Components/Linkedin';
 import Navbar from './Navbar';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='edits' element={<Edits />}></Route>
       <Route path='github' element={<Github />}></Route>
       <Route path='youtube' element={<YouTube />}></Route>
+      <Route path='linkedin' element={<LinkedIn />}></Route>
     </Routes>
     </div>
     </>
