@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import { Home } from './Components/Home';
 import { Resume } from './Components/Resume'
-import { Work } from './Components/Work';
+//import { Work } from './Components/Work';
 import { Music } from './Components/Music'
 import { Edits } from './Components/Edits'
 import { Github } from './Components/Github';

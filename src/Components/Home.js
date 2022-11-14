@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
 import pfp from '.././images/pfp.jpg';
 import banner from '.././images/banner.png';
-import guitar from '.././images/guitar.jpg';
-import drum from '.././images/drum.png';
-import Counter from '../Counter';
+// import guitar from '.././images/guitar.jpg';
+// import drum from '.././images/drum.png';
+// import Counter from '../Counter';
 
 export const Home = () => {
   return (
