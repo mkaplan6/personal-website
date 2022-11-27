@@ -13,10 +13,10 @@ import edits from '.././images/edits.png'
 export const Edits = () => {
   return (
     <div>
-      <img style={{position:"absolute", bottom: -450, width:1545, height:"60%"}}src={banner} alt=""/>
+      <img style={{position:"absolute", bottom: -500, width:1545, height:"60%"}}src={banner} alt=""/>
 
       <h2 style={{position:"relative", left:25, bottom:0, color:"white"}}>I sometimes edit myself and friends onto covers of albums I like. Here are a few. </h2>
-      <img style={{position:"relative", left: 27, bottom: 0, width:1475, height:600}}src={edits} alt=""/>
+      <img style={{position:"relative", left: 40, bottom: 0, width:1450, height:650}}src={edits} alt=""/>
       {/* <img style={{position:"relative", left: 25, bottom: 0, width:300, height:300}}src={weez1} alt=""/>
       <img style={{position:"relative", left: 75, bottom: 0, width:300, height:300}}src={weez2} alt=""/>
 

@@ -4,7 +4,7 @@ import banner from '.././images/banner.png';
 export const Music = () => {
   return (
     <div>
-      <img style={{position:"absolute", bottom: -850, width:1545, height:"60%"}}src={banner} alt=""/>
+      <img style={{position:"absolute", bottom: -950, width:1545, height:"60%"}}src={banner} alt=""/>
       
       <iframe src='https://www.youtube.com/embed/SPdjqo2h0ZA'
       frameborder='0'
