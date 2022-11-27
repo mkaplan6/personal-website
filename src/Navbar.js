@@ -1,5 +1,5 @@
 export default function Navbar() {
-    return <nav className="nav" style={{height: 75}}>
+    return <nav className="nav" style={{height: 75, width: 1540}}>
         <a href="/" className="site-title">Malcolm Kaplan</a>
         <ul>
             <li>

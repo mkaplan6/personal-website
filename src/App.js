@@ -31,4 +31,21 @@ function App() {
   );
 }
 
+// const MobileNavbar = {
+//   Wrapper: styled(Navbar.Wrapper)`
+//     position: fixed;
+//     width: 100vw;
+//     bottom: 0;
+
+//     justify-content: center;
+//   `,
+//   Items: styled(Navbar.Items)`
+//     flex: 1;
+//     padding: 0 2rem;
+
+//     justify-content: space-around;
+//   `,
+//   Item: styled(Navbar.Item)``,
+// };
+
 export default App;
