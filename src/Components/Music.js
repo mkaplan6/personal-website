@@ -37,7 +37,7 @@ export const Music = () => {
       position="relative"
       />
 
-      <h2 style={{position:"relative", left: 850, bottom: 250, color:"white"}}>Here's a few videos of The Dads and some solo songs.</h2>
+      <h2 style={{position:"relative", left: 840, bottom: 250, color:"white"}}>Here are a few videos of The Dads and some solo songs.</h2>
       
     </div>
   )
